@@ -1,6 +1,4 @@
  body {
-    width: 1440px;
-    height: 1912px;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,11 +41,55 @@
     font-size: 20px;
  }
 
-
-
  nav > h2 {
     color: #F9FAF8;
     font-size: 26px;
+ }
+
+ .hText {
+    position: relative;
+    top: 120px;
+    left: 340px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+
+ .hText > h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+ }
+
+ .hText > p {
+    color: #E5E7EB;
+    font-size: 18px;
+ }
+
+ .sButton {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 130px;
+    padding: 8px;
+    margin-top: 8px;
+ }   
+
+ .hImage {
+    position: relative;
+    bottom: 110px;
+    left: 1100px;
+    height: 240px;
+    width: 530px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
  }
 
  .mContainer {
