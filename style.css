@@ -168,6 +168,7 @@
  .signup {
    background-color: #3882f6;
    color: #F9FAF8;
+   border-radius: 15px;
    font-size: 18px;
    width: 1020px;
    height: 150px;
